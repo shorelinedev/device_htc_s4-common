@@ -32,7 +32,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/htc/s4-common
 
 # Build
 TARGET_ARM_EABI_VERSION := 4.8
-ARCH_ARM_HIGH_OPTIMIZATION_COMPAT := true
+ARCH_ARM_HIGH_OPTIMIZATION := true
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := device/htc/s4-common/include
