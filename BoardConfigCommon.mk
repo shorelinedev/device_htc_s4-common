@@ -42,7 +42,7 @@ TARGET_SPECIFIC_HEADER_PATH := device/htc/s4-common/include
 BOARD_KERNEL_BASE := 0x80400000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=qcom
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01400000
+BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 TARGET_KERNEL_SOURCE := kernel/htc/msm8960
 
 # Audio
@@ -87,11 +87,9 @@ BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
 BOARD_HOSTAPD_DRIVER := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
-WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/prima_lan/parameters/fwpath"
 WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
-WIFI_DRIVER_MODULE_NAME := prima_wlan
-WIFI_DRIVER_MODULE_PATH := "/system/lib/modules/prima_wlan.ko"
+WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/prima_lan/parameters/fwpath"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
