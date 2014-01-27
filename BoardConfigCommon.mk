@@ -34,6 +34,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/htc/s4-common
 TARGET_ARM_EABI_VERSION := 4.8
 ARCH_ARM_HIGH_OPTIMIZATION := true
 BOARD_NEEDS_OLD_MMAP := true
+BOARD_USES_LIBQC_OPT := true
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := device/htc/s4-common/include
