@@ -108,9 +108,8 @@
     <!-- Is the device capable of hot swapping an UICC Card -->
     <bool name="config_hotswapCapable">true</bool>
 
-    <!-- NOT USED IN CFX FOR NOW -->
     <!-- Enable flashlight --> 
-    <!--bool name="config_enableTorch">true</bool-->
+    <bool name="config_enableTorch">true</bool>
 
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
