@@ -261,10 +261,10 @@ service rmt_storage /system/bin/rmt_storage modem_st1 modem_st2 recovery radio_c
     class core
     user root
 
-service thermald /system/bin/thermald
-    class main
-    user root
-    group root
+#service thermald /system/bin/thermald
+#    class main
+#    user root
+#    group root
 
 service time_daemon /system/bin/time_daemon
     user root
