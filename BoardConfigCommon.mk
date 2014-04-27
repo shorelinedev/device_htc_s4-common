@@ -30,11 +30,11 @@
 # Release tools
 TARGET_RELEASETOOLS_EXTENSIONS := device/htc/s4-common
 
-# Build
-TARGET_ARM_EABI_VERSION := 4.8
-#ARCH_ARM_HIGH_OPTIMIZATION := true
-BOARD_NEEDS_OLD_MMAP := true
+# Build and optimization
 BOARD_USES_LIBQC_OPT := true
+TARGET_GCC_VERSION_EXP := 4.8-linaro
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := 4.8-linaro
+#ARCH_ARM_HIGH_OPTIMIZATION := true
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := device/htc/s4-common/include
